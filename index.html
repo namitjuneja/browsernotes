@@ -1,0 +1,23 @@
+<html contenteditable>
+
+
+	<head>
+
+	  <script>
+		  function update_content()
+			  {
+			  	localStorage.content = document.getElementsByTagName("body")[0].innerHTML;
+			  }
+
+		  function load_content()
+			  {
+			  	document.getElementsByTagName("body")[0].innerHTML = localStorage.content;
+			  }
+	  </script>
+
+	</head>
+
+	<body onkeyup="update_content()" onload="load_content()">
+	</body>
+
+</html>
