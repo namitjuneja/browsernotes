@@ -11,7 +11,7 @@ A simple utility tool I created in my free that helps you create quick notes off
 ##### [Demo](https://www.namitjuneja.com/browsernotes "Live Demo")
 
 
-## Usage 
+## TODO
 <ul>
 <li>Add card for different notes</li>
 <li>text formatting options</li>
